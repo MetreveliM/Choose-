@@ -1,0 +1,5 @@
+<h1> Should maknking colonize the Universe?</h1>
+
+<h3>Agree: {{agreed}} Disgreed: {{disagreed}}</h3>
+
+<app-child *ngFor="let child of childs" [child]="child" (chiled)="onChiled($event)"></app-child>
